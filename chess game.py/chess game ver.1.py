@@ -13,8 +13,8 @@ class ChessBoard:
         self.turn = "White"
         self.white_score = 0
         self.black_score = 0
-        self.piece_values = {"p": 1, "n": 3, "b": 3, "r": 5, "q": 9, "k": 100,
-                             "P": 1, "N": 3, "B": 3, "R": 5, "Q": 9, "K": 100}
+        self.piece_values = {"p": 1, "n": 2, "b": 2, "r": 3, "q": 8, "k": 70,
+                             "P": 1, "N": 2, "B": 2, "R": 3, "Q": 8, "K": 70}
 
     def display_board(self):
         black_color = "\033[30m"
